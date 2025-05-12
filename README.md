@@ -184,9 +184,13 @@ or scale of quaternions will be equal to one:
 $\parallel q\parallel = 1$\
 This is largely true for using quaternions for rotation in simulations.
 the conjugate of is obtained by only negating the vector portion of the
-q $$q^* = [w,v]^* = [w,-v] = [w (x, y, z)]^* = [w (-x, -y, -z)]$$ a
-useful definition for the inverse of a specific quaternion is
-$$q^{-1} = \frac{q^*}{\parallel q\parallel}$$ However because for our
+q 
+$$q^* = [w,v]^* = [w,-v] = [w (x, y, z)]^* = [w (-x, -y, -z)]$$ 
+a useful definition for the inverse of a specific quaternion is
+
+$$q^{-1} = \frac{q^*}{\parallel q\parallel}$$ 
+
+However because for our
 uses we know $\parallel q \parallel = 1$ we can use inverse and
 conjugate interchangeably.
 
