@@ -1,2 +1,6 @@
-# Quaternions-vs-Euler-Rotations-in-Physics-Engines
-Paper written demonstrating the advantages of quaternions vs euler maathmatics in computational models
+# Rotations-in-3D-Simulations
+In this paper, we explore the mathematical and computational methods used to represent and perform rotations in 3D simulations, with a focus on Euler rotations and quaternions. We begin by introducing Euler rotations, a commonly used and intuitive system for representing 3D orientations based on pitch, yaw, and bank. However, we also address the inherent limitations of Euler rotations, such as gimbal lock, which restricts smooth interpolation between orientations.
+
+To overcome these limitations, we delve into quaternions, a powerful mathematical tool for representing 3D rotations. Quaternions offer advantages such as gimbal-lock-free interpolation, computational efficiency, and robustness. We describe quaternion properties, including negation, magnitude, conjugate, inverse, and non-commutative multiplication. The process of converting between Euler angles, rotation matrices, and quaternions is detailed with practical examples, illustrating the advantages of quaternions in 3D simulations.
+
+Finally, we present spherical linear interpolation (SLERP) as a technique for interpolating between two quaternions, enabling smooth transitions in animations and simulations. Through step-by-step calculations and examples, we demonstrate how quaternion-based rotations provide a more efficient and versatile approach to 3D transformations compared to traditional Euler rotations.
