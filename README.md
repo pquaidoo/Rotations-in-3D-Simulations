@@ -1,8 +1,7 @@
 ---
-Author~:
-Patrick Kristopher Quaidoo
-Date~: December 2024
-Title~: Rotations-in-3D-Simulations
+Author: Patrick Kristopher Quaidoo
+Date: December 2024
+Title: Rotations-in-3D-Simulations
 ---
 
 # Abstract
